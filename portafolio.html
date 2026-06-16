@@ -1,0 +1,384 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Diana Bazarte | Portafolio de Office y CAT Tools</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #F8F9FA;
+            color: #191C1D;
+            overflow-x: hidden;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(42, 84, 112, 0.1);
+        }
+        .bento-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .bento-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(11, 30, 51, 0.04);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                "deep-navy": "#0B1E33",
+                "slate-blue": "#17324D",
+                "steel-blue": "#2A5470",
+                "accent-bronze": "#B47C34",
+                "ghost-white": "#F8F9FA",
+                "surface": "#f8f9fa",
+                "on-surface": "#191c1d",
+                "on-surface-variant": "#44474d",
+                "surface-variant": "#e1e3e4"
+              },
+              "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+              },
+              "spacing": {
+                "base": "8px",
+                "section-gap": "120px",
+                "gutter": "24px",
+                "margin-mobile": "20px",
+                "margin-desktop": "64px",
+                "container-max": "1280px"
+              },
+              "fontFamily": {
+                "headline-md": ["Hanken Grotesk"],
+                "display-lg": ["Hanken Grotesk"],
+                "headline-lg": ["Hanken Grotesk"],
+                "body-lg": ["Inter"],
+                "body-md": ["Inter"],
+                "label-sm": ["Inter"],
+                "display-lg-mobile": ["Hanken Grotesk"],
+                "label-md": ["Inter"]
+              },
+              "fontSize": {
+                "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                "display-lg-mobile": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max mx-auto bg-surface/80 backdrop-blur-xl border-b border-steel-blue/10">
+<div class="font-headline-md text-headline-md font-bold text-deep-navy">Diana Bazarte</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-on-surface-variant hover:text-steel-blue transition-colors duration-200 cursor-pointer" href="#experience">Experience</a>
+<a class="font-body-md text-on-surface-variant hover:text-steel-blue transition-colors duration-200 cursor-pointer" href="#featured">Zoho Writer</a>
+<a class="font-body-md text-on-surface-variant hover:text-steel-blue transition-colors duration-200 cursor-pointer" href="#skills">CAT Tools</a>
+<a class="font-body-md text-on-surface-variant hover:text-steel-blue transition-colors duration-200 cursor-pointer" href="#contact">Contact</a>
+<button class="bg-deep-navy text-ghost-white px-6 py-2 rounded-lg font-label-md hover:bg-slate-blue transition-all active:opacity-70">Get a Quote</button>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-deep-navy">menu</span>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto pt-16">
+<!-- Hero Section -->
+<section class="min-h-[80vh] flex flex-col md:flex-row items-center gap-12 px-margin-mobile md:px-margin-desktop py-12 md:py-24">
+<div class="flex-1 space-y-6">
+<div class="inline-flex items-center gap-2 bg-steel-blue/10 text-steel-blue px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-md">Professional Linguist</span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-deep-navy">
+                    Specialist in Technical Translation &amp; Localization.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                    Bridging communication gaps with precision. Expert handling of complex terminology through high-end CAT Tools and real-time collaborative environments.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-deep-navy text-ghost-white px-8 py-4 rounded-lg font-label-md flex items-center gap-2 hover:bg-slate-blue transition-all">
+                        View Portfolio <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-white border border-steel-blue/20 text-deep-navy px-8 py-4 rounded-lg font-label-md hover:bg-ghost-white transition-all">
+                        Technical Stack
+                    </button>
+</div>
+</div>
+<div class="flex-1 w-full relative">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-2xl relative z-10">
+<img alt="Professional Workspace" class="w-full h-full object-cover" data-alt="A meticulously organized professional translator's desk featuring a high-end ultra-wide monitor displaying CAT tool software with bilingual segments. Beside the monitor, a clean notepad with a sleek pen and a small succulent plant sit on a light-colored wood surface. The lighting is bright and natural from a large nearby window, creating a serene and focused corporate atmosphere with a palette of soft whites and deep navy blues." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCde6q1fiiMMtVjlH4qGslGPYnZnHKi8hlINVVopYS8DIQ92H0N7tSsZoZUDHlg53BTxl9gRv0z8RMHaeKh4KNNUtzrBeO7qoHnhDOW0wJhUgw-Dcj5o80f2YKGOd6IzVVEFcWV_oqdEHsXdIP7zC95fJfPxzFQC7g-LaIZI8Fn01AsXKVDFvC8YZXpd2eX5eLZ9aQcDfOsF08rr9W8EaqGwFy-YFt0yiFx5vPE-AsVwBC5qzRvDiSwyw6Wx4DaUMh0zg-cTLfEGYWr">
+</div>
+<div class="absolute -bottom-6 -left-6 w-32 h-32 bg-accent-bronze/10 rounded-full blur-3xl z-0"></div>
+<div class="absolute -top-6 -right-6 w-48 h-48 bg-steel-blue/10 rounded-full blur-3xl z-0"></div>
+</div>
+</section>
+<!-- About Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap">
+<div class="max-w-3xl mx-auto text-center space-y-8">
+<h2 class="font-headline-lg text-headline-lg text-deep-navy">Portafolio de Office y CAT Tools</h2>
+<div class="w-20 h-1 bg-accent-bronze mx-auto"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    With a focus on technical accuracy and cultural resonance, I provide translation services that go beyond mere word-for-word substitution. My methodology integrates advanced software solutions like Zoho Writer and specialized CAT tools to ensure consistency across large-scale projects and real-time collaboration with global teams.
+                </p>
+</div>
+</section>
+<!-- Featured Project: Zoho Writer -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-slate-blue/5 rounded-[2rem] mx-margin-mobile md:mx-margin-desktop" id="featured">
+<div class="grid md:grid-cols-2 gap-16 items-center">
+<div class="space-y-6">
+<span class="font-label-md text-accent-bronze uppercase tracking-widest">Innovation in Workflow</span>
+<h2 class="font-headline-lg text-headline-lg text-deep-navy">Colaboración en Tiempo Real con Zoho Writer</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Experience the power of simultaneous co-editing. During complex localization tasks, I utilize Zoho Writer's real-time environment to allow clients and proofreaders to monitor progress and provide immediate feedback, reducing turnaround time by 30%.
+                    </p>
+<ul class="space-y-4">
+<li class="flex gap-3 items-start">
+<span class="material-symbols-outlined text-steel-blue">check_circle</span>
+<span class="font-body-md">Live feedback loops and instant terminology updates.</span>
+</li>
+<li class="flex gap-3 items-start">
+<span class="material-symbols-outlined text-steel-blue">check_circle</span>
+<span class="font-body-md">Cloud-based version control for document integrity.</span>
+</li>
+<li class="flex gap-3 items-start">
+<span class="material-symbols-outlined text-steel-blue">check_circle</span>
+<span class="font-body-md">Seamless integration with technical glossary management.</span>
+</li>
+</ul>
+</div>
+<div class="glass-card p-4 rounded-2xl shadow-xl">
+<div class="bg-white rounded-xl overflow-hidden border border-steel-blue/10">
+<img alt="Zoho Writer Interface" class="w-full h-auto" data-alt="A high-fidelity screenshot of a collaborative cloud-based document editor interface, showing two active cursors with different color labels indicating real-time users. The text on screen is a technical translation project with side comments and track changes visible. The overall aesthetic is clean, professional, and corporate, featuring a soft blue and white interface design that emphasizes modern localization workflows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtR44RL6a-ZS4IzanhT0-ZfqOyPCQa1fEdfTZrFjDUG80eyqIVe6-r27Wm-k41tbPMFZGSuJUQhrYt69tjMu2XXd8YZg4CLRe8gwuamAK-pCuU98cgryJZuJeUrk3axw1TEMMzef-u6Zv2pg3LXsXanIvEoYILOIoqOdyVEWqCc8r4g7yxMqm4a6xfI39dBV-yInqAidjKkrJzHcSwbINlIEEssqbbPaP8lBu-78EZJlUeqgvMmqSY-6sJYFsFsFpf7rQFci5KGCgf">
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Grid -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="skills">
+<h2 class="font-headline-lg text-headline-lg text-deep-navy mb-12 text-center">Technical Expertise</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- CAT Tools -->
+<div class="bento-item glass-card p-8 rounded-2xl space-y-6">
+<div class="w-12 h-12 bg-deep-navy text-white flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">translate</span>
+</div>
+<h3 class="font-headline-md text-headline-md">CAT Tools</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">SDL Trados</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">MemoQ</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Memsource</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Smartcat</span>
+</div>
+<p class="text-on-surface-variant text-body-md">Advanced proficiency in computer-assisted translation software to ensure 100% terminology consistency.</p>
+</div>
+<!-- Office Productivity -->
+<div class="bento-item glass-card p-8 rounded-2xl space-y-6">
+<div class="w-12 h-12 bg-steel-blue text-white flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">description</span>
+</div>
+<h3 class="font-headline-md text-headline-md">Microsoft Office</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Excel Expert</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">PowerPoint</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Word Mastery</span>
+</div>
+<p class="text-on-surface-variant text-body-md">Expert document formatting and layout preservation for translated corporate presentations and data-heavy reports.</p>
+</div>
+<!-- Collaboration -->
+<div class="bento-item glass-card p-8 rounded-2xl space-y-6">
+<div class="w-12 h-12 bg-accent-bronze text-white flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<h3 class="font-headline-md text-headline-md">Collaboration</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Zoho Suite</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Slack</span>
+<span class="px-3 py-1 bg-steel-blue/10 text-deep-navy text-label-sm rounded">Notion</span>
+</div>
+<p class="text-on-surface-variant text-body-md">Fluid communication and project management within Agile environments and multidisciplinary translation teams.</p>
+</div>
+</div>
+</section>
+<!-- Experience Timeline -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="experience">
+<h2 class="font-headline-lg text-headline-lg text-deep-navy mb-16 text-center">Translation Milestones</h2>
+<div class="max-w-4xl mx-auto relative border-l-2 border-steel-blue/20 ml-4 md:ml-auto">
+<!-- Milestone 1 -->
+<div class="mb-12 relative pl-10">
+<div class="absolute -left-[11px] top-0 w-5 h-5 bg-deep-navy rounded-full border-4 border-white shadow-sm"></div>
+<span class="font-label-md text-accent-bronze">2023 — Present</span>
+<h3 class="font-headline-md text-headline-md text-deep-navy mt-1">Lead Localization Specialist</h3>
+<p class="text-on-surface-variant mt-2">Managing the end-to-end localization lifecycle for SaaS platforms, specializing in UX copy and technical documentation.</p>
+</div>
+<!-- Milestone 2 -->
+<div class="mb-12 relative pl-10">
+<div class="absolute -left-[11px] top-0 w-5 h-5 bg-steel-blue rounded-full border-4 border-white shadow-sm"></div>
+<span class="font-label-md text-accent-bronze">2021 — 2023</span>
+<h3 class="font-headline-md text-headline-md text-deep-navy mt-1">Technical Translator</h3>
+<p class="text-on-surface-variant mt-2">Successfully delivered 500k+ words of technical manuals for industrial engineering firms with zero critical quality reports.</p>
+</div>
+<!-- Milestone 3 -->
+<div class="mb-12 relative pl-10">
+<div class="absolute -left-[11px] top-0 w-5 h-5 bg-steel-blue/40 rounded-full border-4 border-white shadow-sm"></div>
+<span class="font-label-md text-accent-bronze">2019 — 2021</span>
+<h3 class="font-headline-md text-headline-md text-deep-navy mt-1">Linguistic Quality Assurance</h3>
+<p class="text-on-surface-variant mt-2">Focused on CAT tool optimization and glossary maintenance for large-scale legal and financial translation projects.</p>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="contact">
+<div class="bg-deep-navy rounded-[2.5rem] p-12 md:p-24 text-center space-y-8 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute top-0 right-0 w-96 h-96 bg-steel-blue rounded-full blur-[100px]"></div>
+<div class="absolute bottom-0 left-0 w-96 h-96 bg-accent-bronze rounded-full blur-[100px]"></div>
+</div>
+<h2 class="font-display-lg-mobile md:font-display-lg text-ghost-white relative z-10">Ready to localize your impact?</h2>
+<p class="font-body-lg text-ghost-white/80 max-w-2xl mx-auto relative z-10">
+                    Let's discuss how my technical expertise and collaborative workflow can elevate your next translation project.
+                </p>
+<div class="flex justify-center gap-4 relative z-10">
+<button class="bg-ghost-white text-deep-navy px-10 py-5 rounded-lg font-label-md hover:bg-white transition-all shadow-lg">Start a Project</button>
+<button class="bg-transparent border border-ghost-white/30 text-ghost-white px-10 py-5 rounded-lg font-label-md hover:bg-ghost-white/10 transition-all">Send Email</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<section class="px-margin-mobile md:px-margin-desktop py-section-gap bg-ghost-white" id="testimonials">
+  <div class="max-w-container-max mx-auto">
+    <h2 class="font-headline-lg text-headline-lg text-deep-navy mb-12 text-center">Client Testimonials</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+      <!-- Testimonial 1 -->
+      <div class="bento-item glass-card p-8 rounded-2xl space-y-6 flex flex-col">
+        <div class="text-accent-bronze">
+          <span class="material-symbols-outlined text-4xl">format_quote</span>
+        </div>
+        <p class="text-on-surface-variant text-body-md italic flex-1">"Diana's attention to technical detail is unmatched. She localized our entire SaaS platform with precision, ensuring the UX copy felt natural in every market."</p>
+        <div class="pt-4 border-t border-steel-blue/10">
+          <p class="font-headline-md text-[18px] text-deep-navy">Sarah Jenkins</p>
+          <p class="text-label-sm text-steel-blue">Product Manager, TechFlow Solutions</p>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="bento-item glass-card p-8 rounded-2xl space-y-6 flex flex-col">
+        <div class="text-accent-bronze">
+          <span class="material-symbols-outlined text-4xl">format_quote</span>
+        </div>
+        <p class="text-on-surface-variant text-body-md italic flex-1">"Working with Diana through Zoho Writer was a game-changer. The real-time collaboration allowed us to finalize complex engineering manuals in record time."</p>
+        <div class="pt-4 border-t border-steel-blue/10">
+          <p class="font-headline-md text-[18px] text-deep-navy">Marco Rossi</p>
+          <p class="text-label-sm text-steel-blue">Lead Engineer, Industrial Global</p>
+        </div>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="bento-item glass-card p-8 rounded-2xl space-y-6 flex flex-col">
+        <div class="text-accent-bronze">
+          <span class="material-symbols-outlined text-4xl">format_quote</span>
+        </div>
+        <p class="text-on-surface-variant text-body-md italic flex-1">"Her mastery of CAT tools ensured 100% consistency across our legal documentation. A true professional who understands the nuances of technical localization."</p>
+        <div class="pt-4 border-t border-steel-blue/10">
+          <p class="font-headline-md text-[18px] text-deep-navy">Elena Rodriguez</p>
+          <p class="text-label-sm text-steel-blue">Legal Counsel, Lexicon Partners</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><section class="px-margin-mobile md:px-margin-desktop py-section-gap" id="testimonials">
+  <div class="max-w-3xl mx-auto text-center space-y-8 mb-16">
+    <h2 class="font-headline-lg text-headline-lg text-deep-navy">Testimonios de Clientes</h2>
+    <div class="w-20 h-1 bg-accent-bronze mx-auto"></div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter max-w-container-max mx-auto">
+    <!-- Testimonial 1 -->
+    <div class="bento-item glass-card p-8 rounded-2xl flex flex-col justify-between">
+      <div class="space-y-4">
+        <span class="material-symbols-outlined text-accent-bronze">format_quote</span>
+        <p class="font-body-md text-on-surface-variant italic">"La precisión técnica de Diana en la localización de nuestra plataforma SaaS fue impecable. Su manejo de Zoho Writer facilitó enormemente la revisión en tiempo real."</p>
+      </div>
+      <div class="mt-6">
+        <p class="font-label-md text-deep-navy">Project Manager</p>
+        <p class="font-label-sm text-on-surface-variant">TechCorp</p>
+      </div>
+    </div>
+    <!-- Testimonial 2 -->
+    <div class="bento-item glass-card p-8 rounded-2xl flex flex-col justify-between">
+      <div class="space-y-4">
+        <span class="material-symbols-outlined text-accent-bronze">format_quote</span>
+        <p class="font-body-md text-on-surface-variant italic">"Excelente manejo de herramientas CAT. Logró mantener una consistencia terminológica del 100% en un proyecto de más de 50,000 palabras."</p>
+      </div>
+      <div class="mt-6">
+        <p class="font-label-md text-deep-navy">Director de Localización</p>
+        <p class="font-label-sm text-on-surface-variant">Global Logistics</p>
+      </div>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="bento-item glass-card p-8 rounded-2xl flex flex-col justify-between">
+      <div class="space-y-4">
+        <span class="material-symbols-outlined text-accent-bronze">format_quote</span>
+        <p class="font-body-md text-on-surface-variant italic">"Trabajar con Diana es sinónimo de puntualidad y calidad. Su capacidad para colaborar simultáneamente agiliza nuestros flujos de trabajo de traducción."</p>
+      </div>
+      <div class="mt-6">
+        <p class="font-label-md text-deep-navy">Senior Editor</p>
+        <p class="font-label-sm text-on-surface-variant">LinguaStream</p>
+      </div>
+    </div>
+  </div>
+</section><footer class="w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-base bg-deep-navy text-ghost-white">
+<div class="font-headline-md text-headline-md text-ghost-white">Diana Bazarte</div>
+<div class="font-label-sm text-label-sm text-surface-variant/70 text-center md:text-left">
+            © 2024 Diana Bazarte. Technical Translation &amp; Localization Specialist.
+        </div>
+<div class="flex gap-6">
+<a class="text-surface-variant/70 hover:text-accent-bronze transition-colors font-label-sm" href="#">LinkedIn</a>
+<a class="text-surface-variant/70 hover:text-accent-bronze transition-colors font-label-sm" href="#">ProZ Profile</a>
+<a class="text-surface-variant/70 hover:text-accent-bronze transition-colors font-label-sm" href="#">Privacy Policy</a>
+</div>
+</footer>
+<script>
+        // Simple scroll reveal for navigation
+        let lastScroll = 0;
+        const nav = document.querySelector('nav');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > lastScroll && currentScroll > 100) {
+                nav.style.transform = 'translateY(-100%)';
+            } else {
+                nav.style.transform = 'translateY(0)';
+            }
+            lastScroll = currentScroll;
+        });
+
+        // Interactive hover effects for skills
+        document.querySelectorAll('.bento-item').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.setProperty('--mouse-x', `${x}px`);
+                card.style.setProperty('--mouse-y', `${y}px`);
+            });
+        });
+    </script>
+
+
+</body></html>
