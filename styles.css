@@ -98,6 +98,10 @@ h1, h2, h3, .font-headline-md {
 }
 
 /* Navegación Superior */
+nav{
+   background: linear-gradient(rgba(227,227,227,1), transparent);
+}
+
 nav.fixed {
     position: fixed;
     top: 0;
@@ -128,10 +132,14 @@ nav .nav-links a {
     font-weight: 500;
     transition: color 0.2s ease;
     cursor: pointer;
+    padding: 1rem;
 }
 
 nav .nav-links a:hover {
+    background: linear-gradient(45deg, #90c4ff, transparent);
+    transition: color 0.2s ease-out;
     color: var(--steel-blue);
+    padding: 1rem;
 }
 
 /* Sección Hero */
